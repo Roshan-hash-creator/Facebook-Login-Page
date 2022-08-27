@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(241, 241, 241);
+    /* width: 98vw; */
+}
+.facebook{
+    display: flex;
+    justify-content: start;
+    margin-left: 90px;
+    padding: 50px 0px 140px 0px;
+}
+.facebook__left{
+    width: 49vw;
+    margin-top: 160px;
+}
+.facebook__left img{
+    width: 35%;
+    margin-left: 10rem;
+}
+.facebook__left p{
+    margin-left: 11.5rem;
+    font-size: 33px;
+}
+.facebook__right{
+    margin-left: 60px;
+    margin-top: 110px;
+}
+.facebook__login{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    /* border: 2px solid red; */
+    padding: 8px 10px 15px 10px;
+    border-radius: 10px;
+    width: 25vw;
+    box-shadow: 1px 4px 10px #bdb6a9;
+}
+.facebook__login input{
+    margin-top: 12px;
+    margin: 12px 10px 5px 10px;
+    padding: 15px ;
+    border-radius: 6px;
+    font-size: 16px;
+    border: 1px solid silver;
+}
+.facebook__login input:focus{
+    outline-color: #1876f28c;
+}
+.login{
+    margin-top: 10px;
+    margin: 10px 10px 5px 10px;
+    padding: 15px;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: #1877f2;
+    border: none;
+    cursor: pointer;
+}
+.facebook__login p{
+    margin: 15px 0px;
+    text-align: center;
+    font-size: 17px;
+    color: #1877f2;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgb(231, 230, 230);
+}
+.facebook__login p span:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.signUp{
+    padding: 15px;
+    font-weight: 600;
+    color: white;
+    background-color: #42b72a;
+    /* width: 50%; */
+    border: none;
+    border-radius: 5px;
+    margin: 15px 80px 10px 80px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.facebook__creator{
+    margin-top: 30px;
+}
+.facebook__creator p {
+    font-size: 16px;
+    margin-left: 20px;
+}
+.page:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.facebook__footer{
+    background-color: white;
+    padding: 25px 0px;
+}
+.facebook__container{
+    margin: 0px 270px;
+}
+.footer__language{
+    padding-bottom: 13px;
+    border-bottom: 1px solid rgb(215, 215, 215);
+    padding-left: 0px;
+}
+.footer__language ul,
+.footer__links > ul{
+    display: flex;
+    align-items: center;
+}
+.footer__language > ul > li,
+.footer__links > ul > li{
+    list-style-type: none;
+    margin-right: 20px;
+    /* margin-left: 10px; */
+}
+.footer__language > ul > li > a, 
+.footer__links > ul > li > a{
+    text-decoration: none;
+    color: rgb(120 112 112 / 84%);
+}
+.footer__language > ul > li > a:hover{
+    text-decoration: underline;
+    color: #1877f2;
+}
+.footer__links > ul > li > a:hover{
+    text-decoration: underline;
+    color: #1877f2;
+}
+.footer__links{
+    margin-top: 10px;
+}
+.footer__links ul {
+    line-height: 25px;
+}
+.footer__copyright{
+    padding-top: 15px;
+    /* padding-left: 10px; */
+}
+.footer__copyright span{
+    color: rgb(120 112 112 / 84%);
+    font-size: 13px;
+}
+
